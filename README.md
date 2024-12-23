@@ -43,20 +43,22 @@ Database Setup
 Usage
 
     Clone or download this repository.
-    Run the quote_scraper.py script:
-
-python quote_scraper.py
+    Run:
+    python scrap_task.py
 
 The script will:
 
     Fetch quotes and other information from the website.
     Store the data in a MySQL database (scraped_quotes table).
-    Optionally, you can modify the script to output the data to a CSV file by using the csv_maker() method.
+    Optionally, you can modify the script to output the data to a 
+    CSV file by using the csv_maker() method.
 
 Functions
 
     top_ten()
-    This function fetches the top 10 tags from the main page of the website. These tags will be used to categorize the quotes when fetched in later steps.
+    This function fetches the top 10 tags from the main page of 
+    the website. These tags will be used to categorize the quotes 
+    when fetched in later steps.
 
     fetch_data(url_path, category)
     Scrapes quotes, authors, tags, and associated categories from the provided URL. It handles pagination, meaning it will scrape all available pages for the category.
