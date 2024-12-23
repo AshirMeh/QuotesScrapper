@@ -6,6 +6,5 @@
 <br>
 </p>
 
-### [+] Description
 This project scraps data from the top ten tags at quotes.toscrape.com
 
